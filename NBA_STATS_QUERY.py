@@ -1,7 +1,7 @@
 import pandas as pd
 import sqlite3 as sql
 
-df = pd.read_csv('C:\\Users\\12245\\OneDrive\\Documents\\Python_Projects\\Data\\nba_example.tsv', sep='\t')
+df = pd.read_csv('C:\\Users\\12245\\OneDrive\\Documents\\Python_Projects\\Data\\NBA_STATS.tsv', sep='\t')
 
 # df.to_html('C:\\Users\\12245\\OneDrive\\Documents\\Python_Projects\\Data\\nba_to_html.html')
 
