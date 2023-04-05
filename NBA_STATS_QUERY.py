@@ -18,6 +18,7 @@ query = 'SELECT * FROM nba_stats WHERE AST > 6'
 df_query = pd.read_sql_query(query, conn)
 
 print(df_query)
+print(df_query['AST'].describe())
 
 # Close the connection
 conn.close()
